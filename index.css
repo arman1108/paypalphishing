@@ -7,9 +7,13 @@
 	color: #1072eb;
     font-family: pp-sans-big-medium,Helvetica Neue,Arial,sans-serif;
     font-weight: 400;
-    display: inline-block;
-	margin-left:-25%;
+	
 }
+
+#glemt {
+	text-align:left;
+}
+
 
 #navbar {
   padding-top: 14px;
