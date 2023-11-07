@@ -1,7 +1,40 @@
-
-		body {
+	body {
 			font-family: pp-sans-big-regular,Helvetica Neue,Arial,sans-serif;
 		}
+
+
+#navbar {
+  padding-top: 14px;
+  padding-bottom: 14px;
+   text-align: center;
+   font-size: 11px;
+
+}
+
+#nav {
+  color: #666;
+  font-family: pp-sans-big-medium,Helvetica Neue,Arial,sans-serif;
+    font-variant: normal;
+    font-weight: 700;
+    
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+
+
+
+
+footer {
+  background-color: #f8fcfc;
+  margin-top: 15px;
+  margin-bottom: -7px;
+}
+
+ 
+
+
+
 		#login {
 			margin-left: 33.75%;
 			margin-right: 33.75%;
@@ -11,7 +44,7 @@
 			margin-top: 8.5%;
 			border: 0.0125rem solid #ebecee;
 			text-align: center;
-			padding-bottom: 355.2px;
+			padding-bottom: 50.2px;
 
 			border-radius: 12px;
  
@@ -190,4 +223,9 @@ a:active {
   margin-top: -25px;
   position: relative;
   z-index: 2;
+}
+
+#sprakboks {
+  margin: auto;
+  margin-left: -3%;
 }
