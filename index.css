@@ -3,6 +3,14 @@
 		}
 
 
+#forgot {
+	color: #1072eb;
+    font-family: pp-sans-big-medium,Helvetica Neue,Arial,sans-serif;
+    font-weight: 400;
+    display: inline-block;
+	
+}
+
 #navbar {
   padding-top: 14px;
   padding-bottom: 14px;
