@@ -1,6 +1,8 @@
 	body {
-			font-family: pp-sans-big-regular,Helvetica Neue,Arial,sans-serif;
-		font-weight: 700;
+		font-family: HelveticaNeue-Medium,"Helvetica Neue Medium",HelveticaNeue,"Helvetica Neue",Helvetica,Arial,sans-serif
+		font-weight: 400;
+		-webkit-font-smoothing: antialiased;
+		font-variant:normal;
 		}
 
 
