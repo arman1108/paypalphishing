@@ -139,6 +139,7 @@ a:active {
     word-wrap: break-word;
     hyphens: auto;
     width: 80%;
+	margin-top:-7px;
 }
 
 #loginknapp:hover {background-color: #1844c4}
